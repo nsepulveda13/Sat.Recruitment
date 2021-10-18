@@ -7,7 +7,7 @@ namespace Bussines.Services
 {
   public  class User : IUserService
     {
-        public Domain.Models.User MapDto(UserDTO user)
+        public Domain.Models.User MapDto(UserDto user)
         {
             var factory = new FactoryUser();
             Domain.Models.User nuevoUser = new Domain.Models.User()

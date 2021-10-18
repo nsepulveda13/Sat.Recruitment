@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Domain
 {
-  public  class UserDTO
+  public  class UserDto
     {
         [Required]
         public string Name { get; set; }

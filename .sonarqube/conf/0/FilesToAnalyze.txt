@@ -1,0 +1,5 @@
+﻿C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\User.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDTO.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserResponse.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Request\UserRequest.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\UserValidator.cs

@@ -44,21 +44,15 @@ namespace Sat.Recruitment.Test
 
         }
 
-        public void Dispose()
-        {
-      
-
-        }
-
         [Fact]
 
-        public async void CreateUser()
+        public  void CreateUser()
         {
             UserRequestHandler handler = new UserRequestHandler(_mapper, _queryUser, _userService);
             UserRequest user = new UserRequest() { Name = "Nicolas", Email = "nicolas@gmail.com", Address = "av brown", Phone = "+549 1165213283", UserType = "Normal", Money = 124 };
-            var result = await handler.Handle(user, default(CancellationToken));
-            Assert.True(result.IsSuccess);
-            Assert.Equal("User created.", result.Message);
+            var result =  handler.Handle(user, default);
+            Assert.True(result.Result.IsSuccess);
+            Assert.Equal("User created.", result.Result.Message);
         }
 
 
@@ -76,7 +70,7 @@ namespace Sat.Recruitment.Test
                 UserType = "Normal",
                 Money = 151
             };
-            var result = await handler.Handle(user, default(CancellationToken));
+            var result = await handler.Handle(user, default);
 
             Assert.False(result.IsSuccess);
             Assert.Equal("The user is duplicated", result.Message);
@@ -96,7 +90,7 @@ namespace Sat.Recruitment.Test
                 Money = 151
             };
 
-            var result = await handler.Handle(user, default(CancellationToken));
+            var result = await handler.Handle(user, default);
             Assert.False(result.IsSuccess);
             Assert.Equal("The user is duplicated", result.Message);
         }
@@ -150,7 +144,7 @@ namespace Sat.Recruitment.Test
         [Fact]
         public void CheckStrategy()
         {
-            UserDTO user = new UserDTO()
+            UserDto user = new UserDto()
             {
                 Name = "Justin",
                 Email = "Agustin2a@gmail.com",

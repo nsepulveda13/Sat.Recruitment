@@ -1,0 +1,4 @@
+﻿C:\Users\nsepulveda\source\repos\Sat.Recruitment\Access\Access\IQueryUser.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Access\Access\QueryUser.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Access\DependencyInjection.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Access\FileReader\FileReaderUser.cs

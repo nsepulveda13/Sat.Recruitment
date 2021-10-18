@@ -5,7 +5,7 @@ using MediatR;
 using Domain.Models;
 namespace Domain.Request
 {
-   public class UserRequest : UserDTO ,  IRequest <UserResponse>
+   public class UserRequest : UserDto,  IRequest <UserResponse>
     {
     }
 }

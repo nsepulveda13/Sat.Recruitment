@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Bussines
 {
-    public class StringValidator
+    public  static class StringValidator
     {
          public static String NormalizeEmail(String email)
         {

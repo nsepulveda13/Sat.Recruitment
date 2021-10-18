@@ -1,0 +1,11 @@
+﻿C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Handlers\UserRequestHandler.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Infractrusture\DependencyInjection.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Infractrusture\FactoryUser.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Infractrusture\MappingProfile.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Infractrusture\StringValidator.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Services\IUserService.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Services\User.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Strategy\Concretes\NormalUserCalculate.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Strategy\Concretes\PremiumUserCalculate.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Strategy\Concretes\SuperUserCalculate.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Strategy\IStrategyCalculate.cs
