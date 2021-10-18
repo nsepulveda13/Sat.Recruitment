@@ -22,12 +22,14 @@ namespace Sat.Recruitment.Api.Controllers
     [Route("[controller]")]
     public class UsersController : ControllerBase
     {
-        internal readonly IMediator _mediator;        
+        internal readonly IMediator _mediator; 
+
 
         public UsersController(IMediator mediator)
         {
 
             _mediator = mediator;
+            
         }
         [HttpPost("user")]
         [Route("/create-user")]     
