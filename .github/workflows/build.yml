@@ -43,5 +43,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"nsepulveda13_Sat.Recruitment" /o:"nsepulveda13" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-           dotnet build <./Sat.Recruitment.Api/Sat.Recruitment.Api.csproj.csproject>
+           dotnet build './Sat.Recruitment.Api/Sat.Recruitment.Api.csproj.csproject'
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
