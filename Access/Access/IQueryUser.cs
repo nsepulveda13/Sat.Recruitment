@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Data.Access
 {
-    public interface IUserDataAccess
+    public interface IQueryUser
     {
         Task<IEnumerable<User>> GetUsersAsync();
+
     }
 }

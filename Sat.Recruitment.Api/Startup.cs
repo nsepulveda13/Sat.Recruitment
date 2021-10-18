@@ -32,7 +32,6 @@ namespace Sat.Recruitment.Api
             services.AddMvc();
             services.AddControllers();
             services.AddSwaggerGen();
-     //services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
             services.AddMappers();
             services.AddRepositories();

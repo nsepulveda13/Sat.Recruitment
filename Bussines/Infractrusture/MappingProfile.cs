@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using AutoMapper;
+using Domain;
 using Domain.Models;
 using Domain.Request;
 
@@ -11,11 +12,8 @@ namespace Bussines.Infractrusture
     {
         public MappingProfile()
         {
-
-
-            CreateMap<UserRequest, User>();
-            CreateMap<User, UserResponse>();
-            CreateMap<UserResponse, User>();
+            CreateMap<UserRequest, UserDTO>();
+            CreateMap<UserDTO, UserResponse>();
         }
     }
 }

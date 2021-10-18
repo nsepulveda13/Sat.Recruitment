@@ -23,6 +23,9 @@ namespace Sat.Recruitment.Api.Controllers
     public class UsersController : ControllerBase
     {
         internal readonly IMediator _mediator;
+
+        
+
         public UsersController(IMediator mediator)
         {
 
@@ -32,8 +35,7 @@ namespace Sat.Recruitment.Api.Controllers
 
         [HttpPost("user")]
         [Route("/create-user")]     
-        public async Task<ActionResult<UserResponse>> AddAsyng([FromBody] UserRequest newUser)// => Ok(await _mediator.Send(newUser));
-
+        public async Task<ActionResult<UserResponse>> AddAsync([FromBody] UserRequest newUser)
         {
 
             try
@@ -43,7 +45,7 @@ namespace Sat.Recruitment.Api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError , ex);
             }
         }
 

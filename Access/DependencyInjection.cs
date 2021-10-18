@@ -10,7 +10,7 @@ namespace Data
     {
         public static void AddRepositories(this IServiceCollection services)
         {
-            services.AddScoped<IUserDataAccess, UserDataAccess>();
+            services.AddScoped<IQueryUser, QueryUser>();
 
         }
     }

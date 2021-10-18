@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Data.FileReader;
 namespace Data.Access
 {
-    public class UserDataAccess : IUserDataAccess
+    public class QueryUser : IQueryUser
     {
         public async Task<IEnumerable<User>> GetUsersAsync()
         {

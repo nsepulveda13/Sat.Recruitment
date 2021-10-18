@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Bussines.Services;
 using Data.Access;
+using Domain;
 using Domain.Models;
 using Domain.Request;
 using MediatR;
@@ -15,29 +17,29 @@ namespace Bussines.Handlers
     public class UserRequestHandler : IRequestHandler<UserRequest, UserResponse>
     {
         private readonly IMapper _mapper;
-        private readonly IUserDataAccess _repository;
+        private readonly IQueryUser _repository;
+        private readonly IUserService _userService;
 
-        public UserRequestHandler(IMapper mapper, IUserDataAccess repository)
+
+        public UserRequestHandler(IMapper mapper, IQueryUser repository , IUserService userService )
         {
             _mapper = mapper;
             _repository = repository;
-
+            _userService = userService;
         }
 
         public async Task<UserResponse> Handle(UserRequest request, CancellationToken cancellationToken)
         {
-            var user = _mapper.Map<User>(request);
-            user.Email = StringValidator.NormalizeEmail(user.Email);
-            var factory = new FactoryUser();
-            user.Money = factory.GetMoneyCalculatedByUser(user);
-            var users = await _repository.GetUsersAsync();
-            if (users.Any(u => u.Email == user.Email && u.Name == u.Name))
+            var userDTO = _mapper.Map<UserDTO>(request);
+            var user = _userService.MapDto(userDTO); 
+            var listUsers = await _repository.GetUsersAsync();
+            if (listUsers.Any(u => u.Email == user.Email || u.Name ==user.Name || u.Phone == user.Phone))
             {
                 return new UserResponse()
                 {
                     IsSuccess = false,
                     ResultValue = string.Empty ,
-                    Message = "User duplicate."
+                    Message = "The user is duplicated"
                 };
             }
             return new UserResponse()
@@ -48,6 +50,7 @@ namespace Bussines.Handlers
             };
 
         }
+
 
     }
 }

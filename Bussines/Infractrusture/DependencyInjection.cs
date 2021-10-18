@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using AutoMapper;
+using Bussines.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Bussines.Infractrusture
@@ -16,9 +17,8 @@ namespace Bussines.Infractrusture
                 m.AddProfile(typeof(MappingProfile));
 
             });
-
             services.AddSingleton(config.CreateMapper());
+            services.AddSingleton<IUserService, User>();
         }
-
     }
 }
