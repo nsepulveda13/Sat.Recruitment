@@ -5,11 +5,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MediatR;
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Reflection;
+using Bussines.Infractrusture;
+using Data;
 
 namespace Sat.Recruitment.Api
 {
@@ -25,8 +29,15 @@ namespace Sat.Recruitment.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
             services.AddControllers();
             services.AddSwaggerGen();
+     //services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddMappers();
+            services.AddRepositories();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +58,8 @@ namespace Sat.Recruitment.Api
             app.UseRouting();
 
             app.UseAuthorization();
+
+
 
             app.UseEndpoints(endpoints =>
             {
