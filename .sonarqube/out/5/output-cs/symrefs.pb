@@ -50,7 +50,7 @@ ZC:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Infractrusture\Mappin
  ó
 [C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Infractrusture\StringValidator.cs
 
-  
+ (
 
 		 ,
 		4 9 F

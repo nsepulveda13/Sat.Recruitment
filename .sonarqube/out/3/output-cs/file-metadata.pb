@@ -1,7 +1,8 @@
-l
-cC:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\Controllers\UsersController.csutf-8X
-OC:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\Program.csutf-8X
-OC:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\Startup.csutf-8—
-‹C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8Œ
-€C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.AssemblyInfo.csutf-8Ÿ
-“C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.MvcApplicationPartsAssemblyInfo.csutf-8
+N
+EC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\User.csutf-8Q
+HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDto.csutf-8V
+MC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserResponse.csutf-8V
+MC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Request\UserRequest.csutf-8P
+GC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\UserValidator.csutf-8ˆ
+}C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8p
+eC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.csutf-8

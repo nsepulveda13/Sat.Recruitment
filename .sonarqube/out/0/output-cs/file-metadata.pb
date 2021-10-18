@@ -1,6 +1,6 @@
 N
 EC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\User.csutf-8Q
-HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDTO.csutf-8V
+HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDto.csutf-8V
 MC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserResponse.csutf-8V
 MC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Request\UserRequest.csutf-8P
 GC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\UserValidator.csutf-8ˆ

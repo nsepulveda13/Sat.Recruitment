@@ -86,7 +86,7 @@ EC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\User.cs
 } 
 } ž
 
-HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDTO.cs
+HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDto.cs
 	namespace 	
 Domain
  
@@ -94,7 +94,7 @@ HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDTO.cs
 public		 
 class		
  
-UserDTO		 
+UserDto		 
 {
 
  
@@ -243,12 +243,12 @@ MC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Request\UserRequest.cs
  
 UserRequest 
 : 
-UserDTO %
-,& '
-IRequest) 1
-<2 3
-UserResponse3 ?
->? @
+UserDto %
+,% &
+IRequest( 0
+<1 2
+UserResponse2 >
+>> ?
 {		 
 }
 

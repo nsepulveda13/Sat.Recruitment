@@ -16,7 +16,7 @@ EC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\User.cs
  
 
  ž
-HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDTO.cs
+HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDto.cs
 
 		 
 

@@ -1,7 +1,7 @@
 ]
 EC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\User.cs 8r	
 f
-HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDTO.cs 8r	
+HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDto.cs 8r	
 d
 MC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserResponse.cs 8r	
 ^

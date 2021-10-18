@@ -12,42 +12,66 @@
       },
       "results": [
         {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "El nombre del tipo o del espacio de nombres 'UserDTO' no se encontró (¿falta una directiva using o una referencia de ensamblado?)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/nsepulveda/source/repos/Sat.Recruitment/Bussines/Infractrusture/StringValidator.cs",
+                "uri": "file:///C:/Users/nsepulveda/source/repos/Sat.Recruitment/Bussines/Services/IUserService.cs",
                 "region": {
-                  "startLine": 7,
-                  "startColumn": 18,
-                  "endLine": 7,
-                  "endColumn": 33
+                  "startLine": 12,
+                  "startColumn": 40,
+                  "endLine": 12,
+                  "endColumn": 47
                 }
               }
             }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
+          ]
+        },
+        {
+          "ruleId": "CS0535",
+          "level": "error",
+          "message": "'User' no implementa el miembro de interfaz 'IUserService.MapDto(UserDTO)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/nsepulveda/source/repos/Sat.Recruitment/Bussines/Services/User.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 24,
+                  "endLine": 8,
+                  "endColumn": 36
+                }
+              }
+            }
+          ]
         }
       ],
       "rules": {
-        "S1118": {
-          "id": "S1118",
-          "shortDescription": "Utility classes should not have public constructors",
-          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+        "CS0246": {
+          "id": "CS0246",
+          "defaultLevel": "error",
           "properties": {
-            "category": "Major Code Smell",
+            "category": "Compiler",
             "isEnabledByDefault": true,
             "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS0535": {
+          "id": "CS0535",
+          "defaultLevel": "error",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
             ]
           }
         }

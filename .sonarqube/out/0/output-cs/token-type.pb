@@ -12,7 +12,7 @@ EC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\User.cs
   #
 
 % (   !# &  ! $& )   "$ '¶
-HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDTO.cs
+HC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDto.cs
  
  
  
@@ -41,7 +41,7 @@ MC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Request\UserRequest.cs
  
  
  	 	
-   %) 13 ?Ç
+   %( 02 >Ç
 GC:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\UserValidator.cs
  
  

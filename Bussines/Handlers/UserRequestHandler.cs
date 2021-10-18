@@ -30,7 +30,7 @@ namespace Bussines.Handlers
 
         public async Task<UserResponse> Handle(UserRequest request, CancellationToken cancellationToken)
         {
-            var userDTO = _mapper.Map<UserDTO>(request);
+            var userDTO = _mapper.Map<UserDto>(request);
             var user = _userService.MapDto(userDTO); 
             var listUsers = await _repository.GetUsersAsync();
             if (listUsers.Any(u => u.Email == user.Email || u.Name ==user.Name || u.Phone == user.Phone))

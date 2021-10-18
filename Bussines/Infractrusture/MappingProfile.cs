@@ -12,8 +12,8 @@ namespace Bussines.Infractrusture
     {
         public MappingProfile()
         {
-            CreateMap<UserRequest, UserDTO>();
-            CreateMap<UserDTO, UserResponse>();
+            CreateMap<UserRequest, UserDto>();
+            CreateMap<UserDto, UserResponse>();
         }
     }
 }

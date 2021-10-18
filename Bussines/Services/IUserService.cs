@@ -9,7 +9,7 @@ namespace Bussines.Services
    public interface IUserService
     {
 
-      public Domain.Models.User MapDto(UserDTO user); 
+      public Domain.Models.User MapDto(UserDto user); 
 
     }
 }

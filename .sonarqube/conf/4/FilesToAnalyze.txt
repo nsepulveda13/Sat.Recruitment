@@ -1,8 +1,4 @@
-﻿C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Test\TestFixture.cs
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Test\UnitTest1.cs
-C:\Users\nsepulveda\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs
-C:\Users\nsepulveda\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.exe
-C:\Users\nsepulveda\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.dll
-C:\Users\nsepulveda\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-C:\Users\nsepulveda\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
-C:\Users\nsepulveda\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+﻿C:\Users\nsepulveda\source\repos\Sat.Recruitment\Access\Access\IQueryUser.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Access\Access\QueryUser.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Access\DependencyInjection.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Access\FileReader\FileReaderUser.cs

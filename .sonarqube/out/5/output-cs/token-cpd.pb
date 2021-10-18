@@ -85,7 +85,7 @@ repository $
 .!!! "
 Map!!" %
 <!!% &
-UserDTO!!& -
+UserDto!!& -
 >!!- .
 (!!. /
 request!!/ 6
@@ -416,14 +416,14 @@ ZC:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Infractrusture\Mappin
 < 
 UserRequest !
 ,! "
-UserDTO# *
+UserDto# *
 >* +
 (+ ,
 ), -
 ;- .
 	CreateMap 
 < 
-UserDTO 
+UserDto 
 , 
 UserResponse +
 >+ ,
@@ -432,16 +432,17 @@ ZC:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Infractrusture\Mappin
 ;. /
 } 	
 } 
-} Ê
+} Þ
 [C:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Infractrusture\StringValidator.cs
 	namespace 	
 Bussines
  
 { 
 public 
-
-class 
-StringValidator  
+
+static 
+class 
+StringValidator (
 { 
 public			 
 static		 
@@ -578,7 +579,7 @@ RC:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Services\IUserService
 User 
 MapDto  &
 (& '
-UserDTO' .
+UserDto' .
 user/ 3
 )3 4
 ;4 5
@@ -622,7 +623,7 @@ JC:\Users\nsepulveda\source\repos\Sat.Recruitment\Bussines\Services\User.cs
 (
 
 ( )
-UserDTO
+UserDto
 
 ) 0
 user

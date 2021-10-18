@@ -1,10 +1,5 @@
-﻿C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\Controllers\UsersController.cs
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\Program.cs
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\Startup.cs
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.AssemblyInfo.cs
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\obj\Debug\netcoreapp3.1\Sat.Recruitment.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\appsettings.Development.json
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\appsettings.json
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\Properties\launchSettings.json
-C:\Users\nsepulveda\source\repos\Sat.Recruitment\Sat.Recruitment.Api\Files\Users.txt
+﻿C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\User.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserDto.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Models\UserResponse.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\Request\UserRequest.cs
+C:\Users\nsepulveda\source\repos\Sat.Recruitment\Model\UserValidator.cs
